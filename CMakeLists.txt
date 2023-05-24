@@ -8,4 +8,4 @@ include_directories(.)
 add_executable(ThreeTargetSum
         3SumTarget.cpp
         3SumTarget.h
-        main.cpp)
+        main.cpp 3SumTargetOptimal.cpp)

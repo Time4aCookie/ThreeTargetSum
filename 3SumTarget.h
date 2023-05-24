@@ -1,8 +1,8 @@
-//
 // Created by Rohan Tatikonda on 5/21/23.
-//
+#include <vector>
+class ThreeSumCloset {
 
-#ifndef THREETARGETSUM_3SUMTARGET_H
-#define THREETARGETSUM_3SUMTARGET_H
-
-#endif //THREETARGETSUM_3SUMTARGET_H
+public:
+	int threeSumClosest(std::vector<int>& nums, int target);
+	int optimalThreeSumCloset(std::vector<int>& nums, int target);
+};
